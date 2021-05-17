@@ -65,3 +65,6 @@ gem 'better_errors'
 
 # Jquery_for_heroku_compatibility
 gem 'jquery-rails'
+
+# Visualize table in console
+gem 'table_print'
