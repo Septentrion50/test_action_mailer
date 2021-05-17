@@ -47,6 +47,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Open sent emails
+  gem 'letter_opener'
 end
 
 group :test do
@@ -68,3 +70,6 @@ gem 'jquery-rails'
 
 # Visualize table in console
 gem 'table_print'
+
+# Environement variables
+gem 'dotenv-rails'
